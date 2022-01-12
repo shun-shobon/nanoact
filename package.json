@@ -1,0 +1,22 @@
+{
+  "name": "nanoact",
+  "description": "Nano frontend rendering library",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "library",
+    "ui"
+  ],
+  "author": "Shuntaro Nishizawa <me@shun.technology>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier -w --ignore-path .gitignore '**/*.ts'"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  }
+}

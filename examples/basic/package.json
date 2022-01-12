@@ -1,0 +1,20 @@
+{
+  "name": "basic",
+  "author": "Shuntaro Nishizawa <me@shun.technology> (https://github.com/shun-shobon)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "run-p check:*"
+  },
+  "dependencies": {
+    "nanoact": "link:../.."
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.7.6",
+    "vite-plugin-html": "^2.1.1"
+  },
+  "packageManager": "yarn@3.1.1"
+}
