@@ -5,7 +5,6 @@
     "noEmit": true,
     "strict": true,
     "jsx": "preserve",
-    "jsxFactory": "h",
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,

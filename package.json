@@ -11,6 +11,7 @@
   "author": "Shuntaro Nishizawa <me@shun.technology>",
   "license": "MIT",
   "type": "module",
+  "types": "dist/nanoact.d.ts",
   "exports": {
     ".": {
       "browser": "dist/nanoact.module.js",
@@ -18,11 +19,11 @@
       "import": "dist/nanoact.esm.js",
       "umd": "dist/nanoact.umd.js",
       "default": "dist/nanoact.module.js",
-      "types": "dist/index.d.ts"
+      "types": "dist/nanoact.d.ts"
     }
   },
   "scripts": {
-    "build": "microbundle src/index.ts",
+    "build": "microbundle src/nanoact.ts",
     "format": "prettier -w --ignore-path .gitignore '**/*.ts'"
   },
   "devDependencies": {
