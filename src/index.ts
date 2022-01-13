@@ -20,8 +20,8 @@ function renderNode<P = {}>(node: VNode<P>): HTMLElement {
   );
 
   node.children.forEach((node) => {
-    if (typeof node === "string") element.innerText = node;
-    else element.appendChild(renderNode(node));
+    const child = typeof node === 'string' ? document.createTextNode(node) : renderNode(node);
+    element.appendChild(child);
   });
 
   return element;
